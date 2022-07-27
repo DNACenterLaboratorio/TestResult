@@ -1,0 +1,161 @@
+*{
+    font-family: 'Arial', sans-serif;
+
+    padding: 0;
+    margin: 0;
+}
+
+/*headlines*/
+h1{
+    font-weight: 300;
+    font-size: 96px;
+    letter-spacing: -1.5px;
+}
+h2{
+    font-weight: 300;
+    font-size: 60px;
+    letter-spacing: -0.5px;
+}
+h3{
+    font-weight: 400;
+    font-size: 48px;
+    letter-spacing: 0px;
+}
+h4{
+    font-weight: 400;
+    font-size: 34px;
+    letter-spacing: 0.25px;
+}
+h5{
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0px;
+}
+h6{
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.15px;
+}
+
+/*subtitles*/
+.subtitle-1{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.15px;
+}
+.subtitle-2{
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+}
+
+/*bodys*/
+.body-1{
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    padding: .5rem;
+}
+.body-2{
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    padding: .5rem;
+}
+
+/*button*/
+.button{
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1.25px;
+}
+
+/*caption*/
+.caption{
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+}
+
+/*overline*/
+.overline{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+}
+
+.info-section{
+    padding: 1rem;
+    margin: .5rem;
+
+    background-color: rgb(0,51,153);
+    color: white;
+
+    border-radius: .5rem;
+}
+
+.header{
+    margin: .5rem;
+    width: calc(100%-1rem);
+
+    background-position: center;
+    background-size: cover;
+
+    display: grid;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.detection{
+    margin: 1.5rem;
+    color: rgb(0,51,153);
+}
+
+.result{
+    background: rgb(74, 216, 98);
+    color: white;
+    margin: .5rem;
+    padding: 1rem 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+
+    border-radius: .5rem;
+}
+
+.correct-button{
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: transparent;
+    padding: .5rem;
+    border-radius: 100%;;
+
+    border: solid white 2px;
+}
+
+.icon-button{
+    height: 2rem;
+    width: 2rem;
+    background-color: transparent;
+    padding: .5rem;
+    border-radius: 100%;
+}
+
+.footer{
+    display: grid;
+
+    align-items: center;
+    justify-content: center;
+
+
+    text-align: center;
+    color: white;
+    background-color:  rgb(0,51,153);
+}
+
+.icon-button:hover{
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}
